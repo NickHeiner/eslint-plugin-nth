@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-nth",
+  "version": "1.0.0",
+  "description": "My personal eslint config",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Nick Heiner <nth23@cornell.edu>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1"
+  },
+  "license": "MIT"
+}
