@@ -17,6 +17,6 @@
     "test": "eslint . --fix"
   },
   "eslintConfig": {
-    "extends": "./index.js"
+    "extends": "./base.js"
   }
 }
