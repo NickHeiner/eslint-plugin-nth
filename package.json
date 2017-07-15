@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal eslint config",
   "keywords": [
     "eslint",
@@ -10,13 +10,14 @@
   "author": "Nick Heiner <nth23@cornell.edu>",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "eslint": "^4.2.0"
-  },
+  "dependencies": {},
   "scripts": {
     "test": "eslint . --fix"
   },
   "eslintConfig": {
     "extends": "./base.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0"
   }
 }
