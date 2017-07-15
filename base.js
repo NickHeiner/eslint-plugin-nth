@@ -21,7 +21,8 @@ module.exports = {
         ignoreArrayIndexes: true,
         ignore: [
           0,
-          1
+          1,
+          2
         ]
       }
     ],
