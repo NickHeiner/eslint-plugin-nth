@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nth",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "My personal eslint config",
   "keywords": [
     "eslint",
@@ -15,7 +15,7 @@
     "test": "eslint . --fix"
   },
   "eslintConfig": {
-    "extends": "./base.js"
+    "extends": "./index.js"
   },
   "devDependencies": {
     "eslint": "^4.2.0"

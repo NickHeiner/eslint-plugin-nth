@@ -26,6 +26,7 @@ module.exports = {
         ]
       }
     ],
+    'no-use-before-define': 'error',
     'no-multi-spaces': 'warn',
     'no-param-reassign': 'warn',
     'no-return-assign': 'error',
