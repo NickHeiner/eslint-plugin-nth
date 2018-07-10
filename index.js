@@ -91,7 +91,11 @@ module.exports = {
     'space-before-blocks': 'warn',
     'space-before-function-paren': [
       'warn',
-      'never'
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always'
+      }
     ],
     'space-in-parens': 'warn',
     'space-infix-ops': 'warn',
