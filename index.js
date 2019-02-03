@@ -13,6 +13,7 @@ module.exports = {
     'no-extra-boolean-cast': 'error',
     'no-extra-semi': 'warn',
     'no-irregular-whitespace': 'error',
+    'no-undef': 'error',
     'no-unsafe-finally': 'warn',
     curly: 'warn',
     'no-case-declarations': 'error',
