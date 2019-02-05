@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 module.exports = {
   parserOptions: {
-    "ecmaVersion": 2019
+    ecmaVersion: 2019
   },
   rules: {
     'no-compare-neg-zero': 'error',

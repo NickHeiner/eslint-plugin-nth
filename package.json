@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nth",
-  "version": "1.1.4",
+  "version": "2.0.0",
   "description": "My personal eslint config",
   "keywords": [
     "eslint",
@@ -11,20 +11,23 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-react-app": "^2.1.0",
-    "eslint-plugin-flowtype": "^2.50.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-config-react-app": "^3.0.6",
+    "eslint-plugin-flowtype": "^3.2.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
   },
   "scripts": {
     "lint:fix": "yarn run test --fix",
     "test": "eslint ."
   },
   "eslintConfig": {
-    "extends": "./index.js"
+    "extends": "./index.js",
+    "env": {
+      "node": true
+    }
   },
   "devDependencies": {
-    "eslint": "^4.2.0"
+    "eslint": "^5.13.0"
   }
 }
