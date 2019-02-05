@@ -22,7 +22,10 @@
     "test": "eslint ."
   },
   "eslintConfig": {
-    "extends": "./index.js"
+    "extends": "./index.js",
+    "env": {
+      "node": true
+    }
   },
   "devDependencies": {
     "eslint": "^5.13.0"
