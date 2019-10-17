@@ -123,7 +123,7 @@ module.exports = {
     'no-var': 'error',
     'object-shorthand': 'warn',
     'dot-notation': 'error',
-    'no-unused-vars': 'warn',
+    'no-unused-vars': ['warn', {args: 'after-used'}],
     'prefer-const': 'warn',
     'prefer-rest-params': 'warn',
     'prefer-spread': 'warn',
